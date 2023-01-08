@@ -45,7 +45,7 @@ public class VACalendarView: UIScrollView {
     public var selectionStyle: VASelectionStyle = .single
     
     private var calculatedWeekHeight: CGFloat = 100
-    private let calendar: VACalendar
+    public let calendar: VACalendar
     private var monthViews = [VAMonthView]()
     private let maxNumberOfWeek = 6
     private let numberDaysInWeek = 7
